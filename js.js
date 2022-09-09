@@ -110,5 +110,5 @@ function tooltipShow(x){
     getStateName.innerHTML = '<h2>'+stateName+'</h2>';
 };
 function tooltipHide(){
-    getStateName.innerHTML = '<h2>Hover Your Cursor Over a State</h2>';
+    getStateName.innerHTML = '<h2>Select a State</h2>';
 };
