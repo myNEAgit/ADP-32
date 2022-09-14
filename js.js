@@ -43,7 +43,7 @@ const loadData = async () => {
                         <img src="img/devices.svg" />\
                         <div class="all-artists-info">\
                             <p class="percentage">'+x.device+'</p>\
-                            <p><strong>Use a Device</strong></p>\
+                            <p><strong>Use a Device to Access Art</strong></p>\
                         </div>\
                     </div>\
                 </div>\
