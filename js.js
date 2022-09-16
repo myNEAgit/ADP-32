@@ -22,7 +22,6 @@ const loadData = async () => {
                             <p><strong>Attend or Visit</strong></p>\
                         </div>\
                     </div>\
-                    <hr>\
                     <div class="data-row text-center">\
                         <img src="img/personallyCreated.svg" />\
                         <div class="all-artists-info">\
@@ -30,7 +29,6 @@ const loadData = async () => {
                             <p><strong>Personally Perform or Create</strong></p>\
                         </div>\
                     </div>\
-                    <hr>\
                     <div class="data-row text-center">\
                         <img src="img/read.svg" />\
                         <div class="all-artists-info">\
@@ -38,7 +36,6 @@ const loadData = async () => {
                             <p><strong>Read Literature</strong></p>\
                         </div>\
                     </div>\
-                    <hr>\
                     <div class="data-row text-center">\
                         <img src="img/devices.svg" />\
                         <div class="all-artists-info">\

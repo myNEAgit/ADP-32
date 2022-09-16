@@ -99,19 +99,22 @@ g a:hover path,
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: rgba(255, 255, 255, 0.9);
-  margin: 5% auto 15% auto;
+  background-color: rgba(255, 255, 255, 0.93);
+  margin: 5% auto 5% auto;
   padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
   border: 1px solid #888;
   width: 80%;
 }
 
 .modal .data-row {
-  margin-top: 2rem;
-  width: 100%;
+  margin-top: 1rem;
+  width: 50%;  /* mio was 100%  */
   margin-left: auto;
   margin-right: auto;
-  justify-content: center;
+  justify-content: center; 
+  float: left;  /* mio to fit 2 items in a row */
 }
 
 .modal .data-row h2 {
@@ -131,13 +134,14 @@ g a:hover path,
   color:black;
   margin-bottom:0;
   padding-bottom:0;
-  margin-top:1rem;
+ /* margin-top:1rem; mio */
 }
 
 .modal h1 {
   text-align: center;
-  margin-top: -20px;
+  margin-top: -40px;
   font-size: 26x;
+  text-transform: uppercase;
 }
 
 /* The Close Button */
@@ -157,11 +161,11 @@ g a:hover path,
 }
 
 .d-flex {
-  display: flex;
+display: flex; /*    */
 }
 
 .modal-content {
-  max-height: calc(100vh - 210px);
+  max-height: calc(100vh - 130px);  /* mio was 100vh - 210px); */
   overflow-y: auto;
 }
 
@@ -185,6 +189,8 @@ g a:hover path,
   width: 100%;
   justify-content: space-evenly;
 }
+
+/*
 hr {
   border-top: 3px solid #4773aa;
 }
@@ -194,9 +200,12 @@ hr.darker {
   margin-bottom:2rem;
   margin-top:2rem;
 }
+
 .modal-content hr {
   width: 80%;
 }
+
+*/
 
 /*dropdown*/
 #dropdown {
@@ -283,6 +292,7 @@ img#arrow.rotated {
 }
 
 
+/* *** @MEDIA *** */
 
 @media only screen and (max-width: 700px) {
   .bg-gray.margin-control{
@@ -301,13 +311,24 @@ img#arrow.rotated {
   .legend div:nth-child(3), .legend div:nth-child(4) {
     margin-top: 0;
   }
-  
+    
+        /* mio para mobil */
+        .modal .data-row {
+            width: 100%;
+            float: none;
+        }
+        h1 {
+              font-size: 1.9rem;
+        }
+    
+    
+    
   .modal .data-row p {
-    margin-left: 0;
+    margin-left: 0; 
   }
   .modal-content .d-flex div,
   .modal-content div {
-    width: 100%;
+    width: 100%;  
     margin: auto;
     text-align: center;
   }
