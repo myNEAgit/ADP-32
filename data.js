@@ -1,6 +1,6 @@
 [
    {
-   "state":"U.S.",
+   "state":"All U.S.",
    "stateAbbr":"US",
    "attendOrVisit":"45.2%",
    "performCreate":"32.7%",
