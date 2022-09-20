@@ -1,6 +1,6 @@
 /*global*/
 body{
-  width:60%;
+  width:55%;
   margin:auto;
   background-color: white;
 }
@@ -12,7 +12,7 @@ h3,
   font-family: Arial, Helvetica, sans-serif;
 }
 
-p{font-size:13px;} 
+p{font-size:16px; line-height: 150%;} 
 h1{font-size:2.5rem;}
 
 
@@ -31,7 +31,7 @@ h1{font-size:2.5rem;}
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
- /* margin-block-start: 0em;  n*/
+  margin-block-start: 0em;
 }
 .bg-gray span {
   font-family: "Oswald", sans-serif;
