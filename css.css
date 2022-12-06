@@ -243,6 +243,7 @@ hr.darker {
   padding: 16px;
   font-size: 20px;
   border: none;
+  border-radius: 33px;
   cursor: pointer;
   width: 100%;
   text-align: left;
@@ -303,6 +304,7 @@ img#arrow.rotated {
 
 .legend img {
   height: 50px; 
+    margin-top: 6px;
 }
 
 .legend div{
@@ -311,7 +313,7 @@ img#arrow.rotated {
 
 .legend p{
   padding:0 20px;
-  text-align:left;
+  text-align:center;
 }
 
 
